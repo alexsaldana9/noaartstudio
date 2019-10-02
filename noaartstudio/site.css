@@ -1,3 +1,7 @@
+img {
+    object-fit: cover;
+}
+
 .container {
     margin-top: 3em;
 }
@@ -23,14 +27,23 @@
 
 footer {
     background-color: aquamarine;
+    background-image: url("img/WHITELINEN.jpg");
 }
 
 #logo-MA {
     float: right;
+    width: 45%;
 }
 
+#navbar-logo {
+    width: 20%;
+}
 .more-info-link ::after,
 .more-info-link ::before,
 .more-info-link {
     color: #dc3545;
+}
+
+.jumbotron {
+    background-image: url("img/WHITELINEN.jpg");
 }
