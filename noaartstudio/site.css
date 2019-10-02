@@ -1,0 +1,36 @@
+.container {
+    margin-top: 3em;
+}
+
+.bg-light {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.title-header {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.card {
+    border: none;
+    padding: 1em;
+}
+
+.social-icons {
+    width: 2em;
+}
+
+footer {
+    background-color: aquamarine;
+}
+
+#logo-MA {
+    float: right;
+}
+
+.more-info-link ::after,
+.more-info-link ::before,
+.more-info-link {
+    color: #dc3545;
+}
