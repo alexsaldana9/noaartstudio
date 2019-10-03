@@ -25,6 +25,10 @@ img {
     width: 2em;
 }
 
+.canvas {
+    background-image: url("img/WHITELINEN.jpg");
+}
+
 footer {
     background-color: aquamarine;
     background-image: url("img/WHITELINEN.jpg");
