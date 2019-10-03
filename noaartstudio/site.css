@@ -1,3 +1,15 @@
+h1, h2{
+    font-family: 'Anton', sans-serif;
+}
+
+p,h3,h4,h5 {
+    font-family: 'Be Vietnam', sans-serif;  
+}
+
+h3,h4,h5 {
+    font-weight: bolder;
+}
+
 img {
     object-fit: cover;
 }
@@ -38,6 +50,12 @@ img {
 
 .social-icons {
     width: 2em;
+}
+
+.headshot-img {
+    width: 60%;
+    margin: 10px auto 20px;
+    display: block;
 }
 
 .canvas {
