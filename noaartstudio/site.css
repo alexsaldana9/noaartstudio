@@ -1,5 +1,6 @@
 h1, h2{
-    font-family: 'Anton', sans-serif;
+/*    font-family: 'Anton', sans-serif;
+*/    font-family: 'Didact Gothic', sans-serif;
 }
 
 p,h3,h4,h5 {
@@ -77,19 +78,34 @@ img {
 .col-sm-12.canvas h1 {
     padding-top: 2em;
     padding-bottom: 2em;
+    color: rgb(236,106,42);
+    font-size: 6em;
+    font-weight: lighter;
+    padding-left: 1.5em;
+}
+
+.student-month {
+    padding-left: 1em;
 }
 
 footer {
     background-color: aquamarine;
     background-image: url("img/WHITELINEN.jpg");
 }
+.footer-copyright.text-center.py-3 a{
+    color: rgba(0,0,0,.5);
+}
 
+.list-unstyled li a {
+    color: rgba(0,0,0,.5);
+}
 
 #logo-MA {
     float: right;
-    width: 25%;
+    width: 40%;
     padding-top: 3em;
     padding-right: 2em;
+    padding-bottom: 2em;
 }
 
 #navbar-logo {
@@ -100,3 +116,61 @@ footer {
 .more-info-link {
     color: #dc3545;
 }
+
+
+@media (max-width: 1000px) {
+    #logo-MA {
+        padding-top: 6em;
+    }
+
+    .col-sm-12.canvas h1 {
+        padding-left: 0.4em;
+    }
+}
+
+@media (max-width: 796px) {
+    #logo-MA {
+        padding-top: 5em;
+    }
+
+    .col-sm-12.canvas h1 {
+        padding-left: 0.4em;
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 667px) {
+    #logo-MA {
+        padding-top: 5em;
+        margin-top: -4em;
+        width: 35%;
+    }
+
+    .col-sm-12.canvas h1 {
+        padding-left: 0.4em; 
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 500px) {
+    .col-sm-12.canvas h1 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 390px) {
+    #logo-MA {
+        padding-top: 5em;
+        margin-top: -4em;
+        width: 35%;
+        padding-right: 0.5em;
+        padding-left: 0.2em;
+    }
+
+    .col-sm-12.canvas h1 {
+        font-size: 2.5em;
+    }
+}
+
