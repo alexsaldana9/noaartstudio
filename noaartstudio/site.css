@@ -47,6 +47,10 @@ img {
     width: 80%;
 }
 
+#portfolio_photos {
+    width: 100%;
+}
+
 .form-control {
     border-radius: 0px;
 }
@@ -86,6 +90,11 @@ img {
 
 .student-month {
     padding-left: 1em;
+}
+
+.previous-students-photos {
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
 footer {
