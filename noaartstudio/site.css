@@ -38,6 +38,14 @@ img {
     padding: 1em;
 }
 
+.card-title {
+    font-size: xx-large;
+}
+
+.card-img-top {
+    width: 80%;
+}
+
 .form-control {
     border-radius: 0px;
 }
@@ -62,6 +70,10 @@ img {
     background-image: url("img/WHITELINEN.jpg");
 }
 
+.cursive {
+    font-family: 'Ma Shan Zheng', cursive;
+}
+
 .col-sm-12.canvas h1 {
     padding-top: 2em;
     padding-bottom: 2em;
@@ -71,6 +83,7 @@ footer {
     background-color: aquamarine;
     background-image: url("img/WHITELINEN.jpg");
 }
+
 
 #logo-MA {
     float: right;
