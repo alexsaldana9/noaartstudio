@@ -15,6 +15,26 @@ img {
     object-fit: cover;
 }
 
+.carousel-inner {
+    max-height: 500px !important;
+    background-color: black;
+    background-image: url(img/WHITELINEN.jpg);
+}
+
+#index-carousel-1,
+#index-carousel-2,
+#index-carousel-3 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#portrait-carousel-1,
+#portrait-carousel-2,
+#portrait-carousel-3 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
 .navbar-toggler {
     border-radius: 0px;
 }
