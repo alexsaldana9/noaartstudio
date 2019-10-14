@@ -152,6 +152,10 @@ footer {
 }
 
 
+.students-artwork {
+    width: 30%;
+}
+
 @media (max-width: 1000px) {
     #logo-MA {
         padding-top: 6em;
