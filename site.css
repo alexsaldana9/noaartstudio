@@ -1,10 +1,10 @@
 /*
+font-family: 'Pacifico', cursive;
 font-family: 'Didact Gothic', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
 h1, h2{
-/*    font-family: 'Anton', sans-serif; */    
     font-family: 'Didact Gothic', sans-serif;
 }
 
@@ -101,7 +101,7 @@ img {
 }
 
 .cursive {
-    font-family: 'Ma Shan Zheng', cursive;
+    font-family: 'Pacifico', cursive;
 }
 
 .col-sm-12.canvas h1 {
@@ -151,10 +151,21 @@ footer {
     color: #dc3545;
 }
 
-
+.students-artwork-row {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
 .students-artwork {
     width: 30%;
     padding: 1.5em;
+}
+
+.former-students {
+    padding: 1em;
+}
+
+#class-img {
+    width: 80%;
 }
 
 @media (max-width: 1000px) {
