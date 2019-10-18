@@ -168,6 +168,12 @@ footer {
     width: 80%;
 }
 
+@media (min-width: 1200px) {
+   #logo-MA {
+        width: 23%;
+    } 
+}
+
 @media (max-width: 1000px) {
     #logo-MA {
         padding-top: 6em;
