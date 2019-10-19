@@ -150,11 +150,21 @@ footer {
 .more-info-link {
     color: #dc3545;
 }
+#portfolio_photos {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
 
 .students-artwork-row {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
+
+.portfolio-artwork-row {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
 .students-artwork {
     width: 30%;
     padding: 1.5em;
@@ -168,15 +178,23 @@ footer {
     width: 80%;
 }
 
+.card-img-top.logos {
+    width: 20%;
+    padding: 2em;
+}
+
 @media (min-width: 1200px) {
    #logo-MA {
-        width: 23%;
+        margin-top: 5em;
+        margin-right: 2em;
+        width: 28%;
     } 
 }
 
 @media (max-width: 1000px) {
     #logo-MA {
         padding-top: 6em;
+        margin-top: 2.5em;
     }
 
     .col-sm-12.canvas h1 {
@@ -198,7 +216,7 @@ footer {
 @media (max-width: 667px) {
     #logo-MA {
         padding-top: 5em;
-        margin-top: -4em;
+        margin-top: -1em;
         width: 35%;
     }
 
@@ -219,7 +237,7 @@ footer {
 @media (max-width: 390px) {
     #logo-MA {
         padding-top: 5em;
-        margin-top: -4em;
+        margin-top: -3em;
         width: 35%;
         padding-right: 0.5em;
         padding-left: 0.2em;
