@@ -142,6 +142,7 @@ footer {
     padding-bottom: 2em;
 }
 
+
 #navbar-logo {
     width: 20%;
 }
@@ -181,6 +182,10 @@ footer {
 .card-img-top.logos {
     width: 20%;
     padding: 2em;
+}
+
+.card-img-top.samller-logo {
+    width: 75%
 }
 
 @media (min-width: 1200px) {
