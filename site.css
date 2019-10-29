@@ -253,3 +253,9 @@ footer {
     }
 }
 
+@media (max-width: 768px) {
+    .students-artwork {
+        width: 100%;
+    }
+}
+
