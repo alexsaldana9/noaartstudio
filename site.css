@@ -254,7 +254,9 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .students-artwork {
+    .students-artwork,
+    .portfolio-img,
+    .card-img-top.logos {
         width: 100%;
     }
 }
