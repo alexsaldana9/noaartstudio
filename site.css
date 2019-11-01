@@ -188,6 +188,16 @@ footer {
     width: 75%
 }
 
+
+@media (min-width: 1500px) {
+   #logo-MA {
+        margin-top: 0px;
+        margin-right: 10em;
+        width: 20%;
+    } 
+}
+
+
 @media (min-width: 1200px) {
    #logo-MA {
         margin-top: 5em;
