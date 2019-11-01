@@ -137,7 +137,7 @@ footer {
 #logo-MA {
     float: right;
     width: 40%;
-    padding-top: 1em;
+    padding-top: 2.5em;
     padding-right: 2em;
     padding-bottom: 2em;
 }
@@ -191,13 +191,7 @@ footer {
 .portfolio-img {
     width: 100%;
 }
-@media (min-width: 1500px) {
-   #logo-MA {
-        margin-top: 0px;
-        margin-right: 10em;
-        width: 20%;
-    } 
-}
+
 
 
 @media (min-width: 1200px) {
@@ -207,7 +201,12 @@ footer {
         width: 28%;
     } 
 }
-
+@media (min-width: 1500px) {
+   #logo-MA {
+        margin-right: 10em;
+        width: 20%;
+    } 
+}
 @media (max-width: 1000px) {
     #logo-MA {
         padding-top: 6em;
