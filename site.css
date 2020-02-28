@@ -180,7 +180,7 @@ footer {
 }
 
 .students-artwork {
-    width: 100%;
+    width: 40%;
     padding: 1.5em;
 }
 
@@ -282,8 +282,8 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .students-artwork,
     .portfolio-img,
+    .students-artwork,
     .card-img-top.logos {
         width: 100%;
     }
