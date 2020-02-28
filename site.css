@@ -153,6 +153,7 @@ footer {
     padding-top: 2.5em;
     padding-right: 2em;
     padding-bottom: 2em;
+    margin-top: 5em;
 }
 
 
@@ -205,6 +206,9 @@ footer {
     width: 100%;
 }
 
+.container.logo-container {
+    margin-top: 0px
+}
 
 
 @media (min-width: 1200px) {
