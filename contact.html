@@ -39,25 +39,24 @@
             <hr>
 
             <form action="https://formspree.io/alexsaldana9@gmail.com" method="POST" role="form">
+
                 <div class="form-group">
-                    <label for="InputName">Name</label>
-                    <input type="text" name="name" class="form-control" id="InputName" placeholder="Enter name">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" name="replyto" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    <input type="text" name="name" class="form-control" placeholder="Name">
                 </div>
 
-                <input type="hidden" name="_next" value="https://noaartstudio.org/thankyou.html" />
+                <div class="form-group">
+                    <input type="text" name="email" class="form-control" placeholder="Email Address">
+                </div>
+
+                <div class="form-group">
+                    <textarea type="text" name="content" class="form-control" rows="5" placeholder="What would you like to say?"></textarea>
+                </div>
+
+                <input type="hidden" name="_next" value="/thankyou.html" />
                 <input type="hidden" name="_subject" value="New submission!" />
                 <input type="text" name="_gotcha" style="display:none" />
                 
-                <input type="submit" class="btn btn-primary" value="Send" />
-
+                <input type="submit" class="btn btn-primary" value="Send">
             </form>
         </div>
         <div class="col-sm-4">
