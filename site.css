@@ -265,6 +265,9 @@ footer {
     .col-sm-12.canvas h1 {
         font-size: 3em;
     }
+    #navbar-logo {
+        width: 30%;
+    }
 }
 
 @media (max-width: 390px) {
@@ -293,3 +296,9 @@ footer {
     }
 }
 
+@media (max-width: 395px) {
+    #logo-MA {
+        padding-top: 0em;
+        margin-top: 2em;
+    }
+}
